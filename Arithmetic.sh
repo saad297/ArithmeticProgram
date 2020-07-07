@@ -19,4 +19,5 @@ do
 	resultarray[i]=${results[answer$i]}
 done
 
-echo ${resultarray[@]}
+echo "Values in Descending : "
+sort -nr <(printf "%s\n" "${resultarray[@]}")
