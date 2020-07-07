@@ -21,3 +21,6 @@ done
 
 echo "Values in Descending : "
 sort -nr <(printf "%s\n" "${resultarray[@]}")
+
+echo "Values in Ascending : "
+sort -n <(printf "%s\n" "${resultarray[@]}")
